@@ -1,4 +1,5 @@
 package javaproject;
+
 import java.util.Vector;
 import java.util.Date;
 import java.io.*;
@@ -9,10 +10,7 @@ import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.JTable.*;
 import javax.swing.table.*;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableCellRenderer;
-import javax.swing.GroupLayout.Alignment;
+
 // 메인 메뉴
 public class PcCafeMain extends JFrame implements ActionListener, ListSelectionListener, ItemListener, MouseListener{
 	Container ct;
